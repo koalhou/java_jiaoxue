@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/logback-access-1.0.9.jar"/>
+	<classpathentry kind="lib" path="lib/logback-classic-1.0.9.jar"/>
+	<classpathentry kind="lib" path="lib/logback-core-1.0.9.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/spring-agent.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aspects.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-support.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core.jar"/>
+	<classpathentry kind="lib" path="lib/spring-jdbc.jar"/>
+	<classpathentry kind="lib" path="lib/spring-jms.jar"/>
+	<classpathentry kind="lib" path="lib/spring-orm.jar"/>
+	<classpathentry kind="lib" path="lib/spring-test.jar"/>
+	<classpathentry kind="lib" path="lib/spring-tomcat-weaver.jar"/>
+	<classpathentry kind="lib" path="lib/spring-tx.jar"/>
+	<classpathentry kind="lib" path="lib/spring-web.jar"/>
+	<classpathentry kind="lib" path="lib/spring-webmvc-portlet.jar"/>
+	<classpathentry kind="lib" path="lib/spring-webmvc-struts.jar"/>
+	<classpathentry kind="lib" path="lib/spring-webmvc.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+    
+<struts>
+   <package name="huasoft" namespace="/test" extends="struts-default">
+	<action name="helloworld" class="cn.huasoft.action.HelloWorldAction">
+		
+		<!--  <result name="success">/WEB-INF/page/hello.jsp</result>  -->
+		<result name="success">/WEB-INF/page/HelloWorld.jsp</result>
+	</action>
+    </package> 
+   
+    
+    <!-- 只处理以do,go的请假后缀    -->
+<!--     <constant name="struts.action.extension" value="do,go"/> -->
+</struts>

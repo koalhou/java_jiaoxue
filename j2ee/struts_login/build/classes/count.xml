@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+    
+<struts>
+   <package name="biz1" namespace="/biz1" extends="my-default">
+   
+		<action name="app_counter" class="count.Counter" method="app_count">
+			<result name="success">/count.jsp</result>
+		</action>
+		<action name="session_counter" class="count.Counter" method="session_count">
+			<result name="success">/count.jsp</result>
+		</action>
+		<action name="req_counter" class="count.Counter" method="req_count">
+			<result name="success">/count.jsp</result>
+		</action>
+		
+    </package>
+</struts>
