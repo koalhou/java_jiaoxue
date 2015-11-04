@@ -74,14 +74,14 @@ public class SystemBootServlet extends HttpServlet {
 	 */
 	private void initConfigParam(WebApplicationContext webApplicationContext) {
 //		BaseService bs = (BaseService)webApplicationContext.getBean(BaseService.class);
-		MemcacheCacheManager es = (MemcacheCacheManager)webApplicationContext.getBean(MemcacheCacheManager.class);
+//		MemcacheCacheManager es = (MemcacheCacheManager)webApplicationContext.getBean(MemcacheCacheManager.class);
 //		EtagService es = (EtagService)webApplicationContext.getBean(EtagService.class);
 //		List<Map<String, String>> configData = bs.getList("Station.getSystemConfig",null);
 //		for(Map<String, String> map : configData){
 //			es.put(map.get("PARAM_NAME"), 0, map.get("PARAM_VALUE"));
 //		}
 //		es.put("test", 1000, "123456");
-		System.out.println(es);
+//		System.out.println(es);
 	}
 
 	/**

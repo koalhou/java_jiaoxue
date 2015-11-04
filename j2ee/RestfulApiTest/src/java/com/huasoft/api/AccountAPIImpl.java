@@ -41,7 +41,7 @@ public class AccountAPIImpl implements AccountAPI {
 		ver.setVerify_result(1);
 		return Response.ok().entity(JacksonUtils.toJsonRuntimeException(ver)).build();
 	}
-	
+
 	@Override
 	public Response verifyAccount(String req) {
 		Map<?, ?> map = JacksonUtils.jsonToMapRuntimeException(req);
